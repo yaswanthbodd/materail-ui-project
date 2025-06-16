@@ -18,7 +18,7 @@ import Switch from '@mui/material/Switch';
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
-function NavBar({mode, setMode}) {
+function Navbar({mode, setMode}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [darkMode, setDarkMode] = React.useState(false);
@@ -174,4 +174,4 @@ function NavBar({mode, setMode}) {
   );
 }
 
-export default NavBar;
+export default Navbar;

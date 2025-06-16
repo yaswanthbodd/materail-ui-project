@@ -1,5 +1,5 @@
 import { Box, Container } from "@mui/material"
-import NavBar from "../components/navsection/Navbar"
+import Navbar from "../components/navsection/Navbar"
 import { HeroSection } from "../components/hero/HeroSection"
 import AccordionSection from "../components/AccordionSection"
 import { CardDisplay } from "../components/cardsection/CardDisplay"
@@ -12,7 +12,7 @@ export const LandingPage = ({mode, setMode})=>{
     return(
         <Container>
             <Box>
-                <NavBar mode={mode} setMode={setMode}/>
+                <Navbar mode={mode} setMode={setMode}/>
                 <HeroSection />
                 <AccordionSection />
                 <CardDisplay />
